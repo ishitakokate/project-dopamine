@@ -2,7 +2,7 @@
 ### Computational Modeling of Reward Dysregulation and Beneficial Reward Engineering in Spiking Neural Networks
 
 **Status:** Active — Phase 3 complete, strengthening experimental rigor for publication  
-**Author:** Ishita, Undergraduate ECE Student...  
+**Author:** Ishita, Undergraduate ECE Student...                     
 **Framework:** Brian2 (Python), neuromorphic computing context  
 
 ---
