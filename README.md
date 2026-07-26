@@ -73,7 +73,7 @@ project-dopamine/
 ### 13 — Phase 1: Dopamine Dysregulation
 Two parallel systems exposed to different reward schedules. Quantifies 
 sensitivity divergence via adaptive threshold modeling and binary 
-spike detection.
+spike detection. 
 
 ### 14 — Synaptic Consolidation
 Two-stage synapse model demonstrating transition from plastic short-term 
