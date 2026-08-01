@@ -1,8 +1,7 @@
 # Project Dopamine
 ### Computational Modeling of Reward Dysregulation and Beneficial Reward Engineering in Spiking Neural Networks
 
-**Status:** Active — Phase 3 complete, strengthening experimental rigor for publication  
-**Author:** Ishita, Undergraduate ECS Student                 
+**Status:** Active — Phase 3 complete, strengthening experimental rigor for publication          
 **Framework:** Brian2 (Python), neuromorphic computing context  
 
 ---
