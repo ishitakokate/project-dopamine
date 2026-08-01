@@ -135,5 +135,5 @@ Install: `pip install brian2 numpy matplotlib jupyter`
 If referencing this work, please cite:  
 Kokate, I. (2026). *Project Dopamine: Computational Modeling of Reward 
 Dysregulation and Beneficial Reward Engineering in Spiking Neural Networks*. 
-Undergraduate independent research project, TCET Mumbai.  
+Undergraduate independent research project.  
 GitHub: github.com/ishitakokate/project-dopamine
