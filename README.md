@@ -50,7 +50,7 @@ This achieves:
 - 78% of dysregulated engagement (38 vs 49 spikes)
 - 2.09x better sensitivity preservation than dysregulating schedule
 - 2.00x more engagement than conservative healthy schedule
-- Sensitivity maintained within healthy bounds throughout
+- Sensitivity maintained within healthy bounds throughout 
 
 A counterintuitive finding: at moderate intervals (200ms), HIGH variability 
 preserves sensitivity better than low variability — because unpredictable 
