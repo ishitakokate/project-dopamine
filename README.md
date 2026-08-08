@@ -41,7 +41,7 @@ Recovery from dysregulation takes **5.9x longer** than dysregulation onset
 under identical conditions (88ms to dysregulate vs 513ms to recover). 
 Homeostatic plasticity provides no meaningful benefit (timescale mismatch). 
 Intervention timing shows negligible effect within this model's equilibrium 
-dynamics.
+dynamics. 
 
 **Phase 3 — Beneficial Reward Engineering (notebook 16)**
 A systematic sweep of 35 reward schedule parameter combinations identifies 
