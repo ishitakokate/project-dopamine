@@ -74,7 +74,7 @@ Two parallel systems exposed to different reward schedules. Quantifies
 sensitivity divergence via adaptive threshold modeling and binary 
 spike detection. 
 
-### 14 — Synaptic Consolidation
+### 14 — Synaptic Consolidation 
 Two-stage synapse model demonstrating transition from plastic short-term 
 to stable long-term memory. Explains structural basis of dysregulation 
 resistance.
