@@ -18,7 +18,7 @@ The central question: **can we engineer a reward schedule for a neuromorphic
 agent that achieves high engagement without producing sensitivity collapse?**
 
 The answer, established across four phases: **yes — and the parameters are 
-precisely quantifiable.**
+precisely quantifiable.** 
 
 ---
 
