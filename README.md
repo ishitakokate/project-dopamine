@@ -116,7 +116,7 @@ reward interval constraints in hardware implementations.
 - [ ] Multi-seed validation (30 runs per condition, error bars)
 - [ ] Statistical significance testing across conditions
 - [ ] Extended parameter sweep (finer resolution, tau_adapt as third parameter)
-- [ ] Paper draft targeting arXiv (cs.NE) and ICONS workshop
+- [ ] Paper draft targeting arXiv (cs.NE) and ICONS workshop 
 
 ---
 
