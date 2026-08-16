@@ -43,20 +43,23 @@ Homeostatic plasticity provides no meaningful benefit (timescale mismatch).
 Intervention timing shows negligible effect within this model's equilibrium 
 dynamics. 
 
-**Phase 3 — Beneficial Reward Engineering (notebook 16)**
-A systematic sweep of 35 reward schedule parameter combinations identifies 
-an optimal operating point: **200ms mean interval, variability σ=0.9×mean**. 
-This achieves:
-- 78% of dysregulated engagement (38 vs 49 spikes)
-- 2.09x better sensitivity preservation than dysregulating schedule
-- 2.00x more engagement than conservative healthy schedule
-- Sensitivity maintained within healthy bounds throughout 
-
-A counterintuitive finding: at moderate intervals (200ms), HIGH variability 
-preserves sensitivity better than low variability — because unpredictable 
-timing occasionally produces recovery gaps that fixed schedules cannot.
-
-update phase 3*
+**Phase 3 — Beneficial Reward Engineering (notebooks 16, experiments/01, experiments/02)**
+A systematic sweep of 35 reward schedule parameter combinations, validated 
+across 30 random seeds (1,050 total simulations) and confirmed via 
+Mann-Whitney U and Chi-squared statistical tests, identifies a robust 
+optimal operating zone: **400ms mean interval, variability σ=0.5-0.9**, 
+achieving up to 90% beneficial fraction (23.7±2.1 spikes, threshold 
+0.0501±0.0172). Single-seed findings (notebook 16) were partially revised 
+by multi-seed validation — the initially identified optimal (200ms, var=0.9) 
+achieved only 43% beneficial fraction across seeds, shifting the robust 
+optimum to 400ms. Key findings:
+- Interval boundaries statistically significant (p<0.05 on both tests) — 
+  below 200ms always dysregulates, above 500ms always loses engagement
+- Variability 0.5-0.9 produces statistically equivalent outcomes (p>0.05) 
+  within the 400ms optimal zone — engineers don't need to hit a single point
+- Low variability (≤0.3) significantly worsens threshold preservation (p<0.01)
+- A counterintuitive inverted-U: medium variability (0.5) outperforms both 
+  extremes at 400ms, robust across 30 seeds
 
 ## Repository Structure
 project-dopamine/
@@ -116,7 +119,7 @@ reward interval constraints in hardware implementations.
 - [x] Phase 2: Recalibration & intervention complete  
 - [x] Phase 3: Beneficial reward engineering complete
 - [x] Multi-seed validation (30 runs per condition, error bars)
-- [ ] Statistical significance testing across conditions
+- [x] Statistical significance testing across conditions
 - [ ] Extended parameter sweep (finer resolution, tau_adapt as third parameter)
 - [ ] Paper draft targeting arXiv (cs.NE) and ICONS workshop 
 
