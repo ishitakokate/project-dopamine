@@ -56,19 +56,7 @@ A counterintuitive finding: at moderate intervals (200ms), HIGH variability
 preserves sensitivity better than low variability — because unpredictable 
 timing occasionally produces recovery gaps that fixed schedules cannot.
 
-**Phase 3 — Beneficial Reward Engineering (notebooks 16 + experiments/01)**
-A systematic sweep of 35 reward schedule parameter combinations, validated 
-across 30 random seeds (1,050 total simulations), identifies a robust 
-optimal operating point: **400ms mean interval, variability σ=0.5×mean**, 
-achieving 90% beneficial fraction (23.7±2.1 spikes, threshold 0.0501±0.0172). 
-A counterintuitive inverted-U relationship between variability and beneficial 
-fraction is identified at 400ms — medium variability (0.5) robustly 
-outperforms both extremes. The beneficial zone has sharp boundaries: below 
-200ms always dysregulates, above 500ms always falls below engagement 
-threshold. Single-seed findings (notebook 16) partially revised by 
-multi-seed validation — confirming the existence of the beneficial zone 
-while shifting the identified optimal parameters.
----
+update phase 3*
 
 ## Repository Structure
 project-dopamine/
