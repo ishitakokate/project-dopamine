@@ -102,11 +102,11 @@ This work is directly relevant to neuromorphic RL agent design on hardware
 like Intel's Loihi 2. When reward signals are programmable parameters 
 (as they are in neuromorphic systems), the design map produced here provides 
 quantitative guidance for engineers: intervals below 200ms risk sensitivity 
-collapse regardless of variability; intervals of 200-400ms with moderate-to-high 
+collapse regardless of variability, while intervals of 200-400ms with moderate-to-high 
 variability maintain healthy sensitivity while maximizing engagement.
 
-The adversarial reward hacking problem in RL — where environments are 
-engineered to maximize reward frequency — maps directly onto the dysregulation 
+The adversarial reward hacking problem in RL, where environments are 
+engineered to maximize reward frequency, maps directly onto the dysregulation 
 mechanism characterized here, providing a principled basis for minimum 
 reward interval constraints in hardware implementations.
 
