@@ -41,22 +41,23 @@ Recovery from dysregulation takes **5.9x longer** than dysregulation onset
 under identical conditions (88ms to dysregulate vs 513ms to recover). 
 Homeostatic plasticity provides no meaningful benefit (timescale mismatch). 
 Intervention timing shows negligible effect within this model's equilibrium 
-dynamics. 
+dynamics.
 
 **Phase 3 — Beneficial Reward Engineering (notebooks 16, experiments/01, experiments/02)**
 A systematic sweep of 35 reward schedule parameter combinations, validated 
-across 30 random seeds (1,050 total simulations) and confirmed via 
+across 30 random seeds (1,050 total simulations) and confirmed using the 
 Mann-Whitney U and Chi-squared statistical tests, identifies a robust 
 optimal operating zone: **400ms mean interval, variability σ=0.5-0.9**, 
 achieving up to 90% beneficial fraction (23.7±2.1 spikes, threshold 
 0.0501±0.0172). Single-seed findings (notebook 16) were partially revised 
 by multi-seed validation — the initially identified optimal (200ms, var=0.9) 
 achieved only 43% beneficial fraction across seeds, shifting the robust 
-optimum to 400ms. Key findings:
+optimum to 400ms.
+Key findings:
 - Interval boundaries statistically significant (p<0.05 on both tests) — 
   below 200ms always dysregulates, above 500ms always loses engagement
 - Variability 0.5-0.9 produces statistically equivalent outcomes (p>0.05) 
-  within the 400ms optimal zone — engineers don't need to hit a single point
+  within the 400ms optimal zone
 - Low variability (≤0.3) significantly worsens threshold preservation (p<0.01)
 - A counterintuitive inverted-U: medium variability (0.5) outperforms both 
   extremes at 400ms, robust across 30 seeds
@@ -75,7 +76,7 @@ project-dopamine/
 ### 13 — Phase 1: Dopamine Dysregulation
 Two parallel systems exposed to different reward schedules. Quantifies 
 sensitivity divergence via adaptive threshold modeling and binary 
-spike detection. 
+spike detection.
 
 ### 14 — Synaptic Consolidation 
 Two-stage synapse model demonstrating transition from plastic short-term 
