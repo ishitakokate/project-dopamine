@@ -116,12 +116,12 @@ reward interval constraints in hardware implementations.
 
 - [x] Phase 1: Characterization complete
 - [x] Synaptic consolidation mechanistic foundation
-- [x] Phase 2: Recalibration & intervention complete  
+- [x] Phase 2: Recalibration & intervention complete
 - [x] Phase 3: Beneficial reward engineering complete
 - [x] Multi-seed validation (30 runs per condition, error bars)
 - [x] Statistical significance testing across conditions
 - [ ] Extended parameter sweep (finer resolution, tau_adapt as third parameter)
-- [ ] Paper draft targeting arXiv (cs.NE) and ICONS workshop 
+- [ ] Paper draft targeting arXiv (cs.NE) and ICONS workshop
 
 ---
 
