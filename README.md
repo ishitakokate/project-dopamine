@@ -26,8 +26,8 @@ precisely quantifiable.**
 
 **Phase 1 — Characterization (notebook 13)**
 A system exposed to engineered high-frequency variable rewards (50-150ms 
-intervals) becomes **3x less sensitive** to identical stimuli than a healthy 
-system on spaced rewards (500ms intervals), measured via binary spike 
+intervals) becomes **3x less sensitive** to identical stimuli as compared to a healthy 
+system on spaced rewards (500ms intervals), measured through binary spike 
 detection across 10 test points.
 
 **Mechanistic foundation (notebook 14)**
@@ -39,8 +39,8 @@ duration.
 **Phase 2 — Recalibration (notebook 15)**
 Recovery from dysregulation takes **5.9x longer** than dysregulation onset 
 under identical conditions (88ms to dysregulate vs 513ms to recover). 
-Homeostatic plasticity provides no meaningful benefit (timescale mismatch). 
-Intervention timing shows negligible effect within this model's equilibrium 
+Homeostatic plasticity provides no meaningful benefit (timescale mismatch), while
+intervention timing shows negligible effect within this model's equilibrium 
 dynamics.
 
 **Phase 3 — Beneficial Reward Engineering (notebooks 16, experiments/01, experiments/02)**
@@ -48,19 +48,20 @@ A systematic sweep of 35 reward schedule parameter combinations, validated
 across 30 random seeds (1,050 total simulations) and confirmed using the 
 Mann-Whitney U and Chi-squared statistical tests, identifies a robust 
 optimal operating zone: **400ms mean interval, variability σ=0.5-0.9**, 
-achieving up to 90% beneficial fraction (23.7±2.1 spikes, threshold 
-0.0501±0.0172). Single-seed findings (notebook 16) were partially revised 
-by multi-seed validation — the initially identified optimal (200ms, var=0.9) 
+achieving up to a 90% beneficial fraction (23.7±2.1 spikes, threshold 
+0.0501±0.0172). The single-seed findings (notebook 16) were partially revised 
+by multi-seed validation, where the initially identified optimal (200ms, var=0.9) 
 achieved only 43% beneficial fraction across seeds, shifting the robust 
 optimum to 400ms.
+
 Key findings:
-- Interval boundaries statistically significant (p<0.05 on both tests) — 
-  below 200ms always dysregulates, above 500ms always loses engagement
-- Variability 0.5-0.9 produces statistically equivalent outcomes (p>0.05) 
+- Interval boundaries are statistically significant (p<0.05 on both tests) — observed to
+  always dysregulate below 200ms, and always lose engagement above 500ms
+- Variability of 0.5-0.9 produces statistically equivalent outcomes (p>0.05) 
   within the 400ms optimal zone
-- Low variability (≤0.3) significantly worsens threshold preservation (p<0.01)
+- A low variability (≤0.3) significantly worsens the threshold preservation (p<0.01)
 - A counterintuitive inverted-U: medium variability (0.5) outperforms both 
-  extremes at 400ms, robust across 30 seeds
+  extremes at 400ms, and is robust across 30 seeds
 
 ## Repository Structure
 project-dopamine/
