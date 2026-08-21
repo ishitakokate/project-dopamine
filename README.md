@@ -75,18 +75,18 @@ project-dopamine/
 ## Notebooks
 
 ### 13 — Phase 1: Dopamine Dysregulation
-Two parallel systems exposed to different reward schedules. It quantifies 
+Two parallel systems exposed to different reward schedules: It quantifies 
 sensitivity divergence via adaptive threshold modeling and binary 
 spike detection.
 
 ### 14 — Synaptic Consolidation 
 Two-stage synapse model demonstrating transition ranging from plastic short-term 
-to stable long-term memory. It explains the structural basis of dysregulation 
+to stable long-term memory: It explains the structural basis of dysregulation 
 resistance.
 
 ### 15 — Phase 2: Recalibration & Intervention
-Three recovery strategies tested from dysregulated baseline. It quantifies a
-5.9x hysteresis ratio, and documents two honest null results: homeostatic 
+Three recovery strategies tested from a dysregulated baseline: It quantifies a
+5.9x hysteresis ratio, and documents two honest null results of homeostatic 
 plasticity and intervention timing.
 
 ### 16 — Phase 3: Beneficial Reward Engineering
